@@ -2,8 +2,9 @@ name: 今治市お知らせを毎日更新
 
 on:
   schedule:
+    # 毎日 JST 07:30 に実行（UTC 22:30 = JST 07:30 の前日）
     - cron: "30 22 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # 手動実行ボタン用
 
 permissions:
   contents: write
@@ -24,6 +25,10 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: 今治市サイトを巡回して news.json を更新
+        env:
+          # Settings → Secrets and variables → Actions で登録すると
+          # Claudeによるやさしい日本語への要約書き換えが有効になる（任意）
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scrape_imabari_news.py
 
       - name: 変更があればコミット
