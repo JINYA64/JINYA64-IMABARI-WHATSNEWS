@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-08-05T12:00:00 (サンプルデータ・手動作成)",
+  "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
+  "items": [
+    {
+      "date": "2026-08-05",
+      "category": "交通・航路",
+      "title": "今治～岡村（関前）航路で、8月13日及び8月15日の両日、お盆の臨時便を運航します。",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/obon.pdf"
+    },
+    {
+      "date": "2026-08-04",
+      "category": "補助金・支援",
+      "title": "家庭用のエアコン・LED照明器具の購入補助の申請受付件数及び予算残額について",
+      "summary": "省エネ性能の高いエアコン・LED照明器具の購入者にPayPayのデジタルクーポンで補助（4万円以上12万円未満は1.5万円、12万円以上は3万円）。受付は令和8年6月1日〜10月30日だが、8月4日15時時点で予算枠の約97.9％が埋まっており、残り枠は約2.1％。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/hojo/001/"
+    },
+    {
+      "date": "2026-07-30",
+      "category": "募集・イベント",
+      "title": "いまばりシェイクアウト訓練を実施します。人数把握のため事前登録に協力ください。（9月1日実施）",
+      "summary": "令和8年9月1日（火）午前8時30分に1分間、「低く・頭を守る・動かない」の安全行動をとる全国連動の防災訓練。個人・自治会・学校・企業など誰でも参加可能。事前登録の締切は8月31日17時。",
+      "url": "https://www.city.imabari.ehime.jp/bousai/shakeout/"
+    }
+  ],
+  "note": "これは自動収集の仕組みが動き出す前のサンプルです。GitHub Actions を設定すると、この内容は毎日自動で最新の7日分に書き換えられます。"
+}
