@@ -11,11 +11,18 @@ docs/news.json として書き出す。
 GitHub Actions などから毎日1回実行することを想定している。
 実行のたびに全件を作り直すので、当日分・翌日分の反映も自動で行われる。
 
+要約は2段階になっている。
+  1. まず本文中の「見出し直後の説明文」だけを狙って抜き出す（API不要）
+  2. 環境変数 ANTHROPIC_API_KEY が設定されていれば、その抜き出した文章を
+     Claude（claude-haiku-4-5）に渡して、専門用語を避けたやさしい日本語に
+     書き換える（未設定なら1.の結果をそのまま使う）
+
 依存: requests, beautifulsoup4
     pip install requests beautifulsoup4
 """
 
 import json
+import os
 import re
 import time
 import datetime
@@ -29,6 +36,9 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://www.city.imabari.ehime.jp/whatsnew.html"
 SITE_ROOT = "https://www.city.imabari.ehime.jp/"
 OUTPUT_PATH = Path(__file__).parent / "docs" / "news.json"
+
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
 
 # 今治市サイトへの負荷を抑えるための最低限のマナー設定
 REQUEST_DELAY_SEC = 1.5
@@ -107,9 +117,86 @@ def parse_whatsnew(soup: BeautifulSoup):
     return items
 
 
-def summarize_detail_page(url: str) -> str:
+def extract_lead_text(soup: BeautifulSoup) -> str:
     """
-    詳細ページ本文の冒頭を短く要約もどきにして返す。
+    詳細ページの本文から「タイトル直後の説明文」だけを狙って抜き出す。
+    パンくずリスト（トップページ｜〇〇課｜…）やフッターの住所などを
+    誤って拾わないよう、最初の見出し(h1)から次の見出し(h2)までの
+    範囲に絞り込む。
+    """
+    main = soup.find(id="main_container") or soup
+    h1 = main.find("h1")
+
+    texts = []
+    if h1:
+        for el in h1.find_all_next():
+            if el.name in ("h2", "h3"):
+                break
+            if el.name in ("p", "li"):
+                t = el.get_text(strip=True)
+                if len(t) > 15:
+                    texts.append(t)
+            if len(texts) >= 3:
+                break
+    if not texts:
+        # h1が見つからない/本文が少ない場合のフォールバック
+        texts = [
+            p.get_text(strip=True)
+            for p in main.find_all(["p", "li"])
+            if len(p.get_text(strip=True)) > 15
+        ][:2]
+
+    text = re.sub(r"\s+", " ", " ".join(texts)).strip()
+    return text
+
+
+def rewrite_plain_japanese(title: str, lead_text: str) -> str | None:
+    """
+    Claude API（claude-haiku-4-5）で、本文の要点を市民向けのやさしい
+    日本語に言い換える。APIキー未設定や失敗時は None を返す（呼び出し側で
+    抽出結果にフォールバックする）。
+    """
+    if not ANTHROPIC_API_KEY or not lead_text:
+        return None
+
+    prompt = (
+        "あなたは自治体広報の編集者です。以下は今治市公式サイトのお知らせ本文の抜粋です。"
+        "専門用語や「〜について」「〜に係る」のような硬い言い回しを避け、"
+        "一般の市民が一読して内容と自分に関係あるかが分かるように、"
+        "2文以内・120字程度の日本語で要約してください。"
+        "日付・金額・締切など具体的な数字は省略せず残してください。"
+        "出力は要約文のみ、前置きや記号は付けないでください。\n\n"
+        f"【タイトル】{title}\n【本文抜粋】{lead_text}"
+    )
+
+    try:
+        resp = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": ANTHROPIC_MODEL,
+                "max_tokens": 300,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        parts = [b["text"] for b in data.get("content", []) if b.get("type") == "text"]
+        text = re.sub(r"\s+", " ", "".join(parts)).strip()
+        return text or None
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] Claude要約に失敗（抽出結果を使用します）: {e}", file=sys.stderr)
+        return None
+
+
+def summarize_detail_page(url: str, title: str) -> str:
+    """
+    詳細ページを取得し、市民向けにわかりやすい要約を1文〜2文で返す。
     PDFや外部サイトは本文取得をスキップする。
     """
     if url.lower().endswith(".pdf"):
@@ -122,17 +209,16 @@ def summarize_detail_page(url: str) -> str:
     except Exception as e:  # noqa: BLE001
         return f"（本文の取得に失敗しました: {e}）"
 
-    main = soup.find(id="main_container") or soup
-    # 見出しの次に来る最初のまとまった段落を本文とみなす
-    paragraphs = [
-        p.get_text(strip=True)
-        for p in main.find_all(["p", "li"])
-        if len(p.get_text(strip=True)) > 15
-    ]
-    text = " ".join(paragraphs[:2])
-    text = re.sub(r"\s+", " ", text).strip()
-    if not text:
+    lead_text = extract_lead_text(soup)
+    if not lead_text:
         return "本文の要約を作成できませんでした。詳細はリンク先をご確認ください。"
+
+    plain = rewrite_plain_japanese(title, lead_text)
+    if plain:
+        return plain
+
+    # Claude未使用時のフォールバック：抽出した文をそのまま短くする
+    text = lead_text
     if len(text) > MAX_SUMMARY_CHARS:
         text = text[:MAX_SUMMARY_CHARS] + "…"
     return text
@@ -153,7 +239,7 @@ def main():
     results = []
     for it in recent:
         print(f"[INFO] summarizing: {it['title'][:40]}", file=sys.stderr)
-        summary = summarize_detail_page(it["url"])
+        summary = summarize_detail_page(it["url"], it["title"])
         results.append({
             "date": it["date"],
             "category": guess_category(it["title"]),

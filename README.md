@@ -50,13 +50,21 @@ python scrape_imabari_news.py
 # docs/news.json が更新されるので、docs/index.html をブラウザで開いて確認
 ```
 
-## 要約の精度について
+## 要約をよりわかりやすくする（Claudeによる言い換え・任意）
 
-`scrape_imabari_news.py` の要約は、詳細ページ本文の冒頭を機械的に短く切り出す簡易版です。
-より自然な要約にしたい場合は、`summarize_detail_page()` の中身を
-Anthropic API（Claude）呼び出しに差し替えると、本文全体を読んだ上での要約に強化できます。
-その場合は API キーを GitHub Actions の `Secrets` に登録し、
-ワークフロー内の環境変数として渡す形にしてください（コードに直接キーを書かないこと）。
+デフォルトのままでも、詳細ページの「タイトル直後の説明文」を狙って抜き出すようになっているので
+ある程度読みやすい要約になります。もう一段階、専門用語を避けたやさしい日本語に自動で
+書き換えたい場合は、Anthropic APIキーを設定してください。
+
+1. [console.anthropic.com](https://console.anthropic.com/) でAPIキーを発行する
+2. GitHubのリポジトリで `Settings → Secrets and variables → Actions → New repository secret`
+3. Name に `ANTHROPIC_API_KEY`、Secret にキーの値を貼り付けて保存
+4. 次回のActions実行から、Claude（claude-haiku-4-5）が本文を読んで
+   「2文以内・120字程度・やさしい日本語」の要約を自動生成するようになる
+
+APIキーを設定しない場合は、①の抽出結果がそのまま使われます（費用もかかりません）。
+コードにキーを直接書き込む必要はなく、GitHubのSecretsに保存したものが
+実行時だけ安全に読み込まれます。
 
 ## サイト構造が変わったら
 
