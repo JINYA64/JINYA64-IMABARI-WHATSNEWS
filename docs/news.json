@@ -1,7 +1,14 @@
 {
-  "generated_at": "2026-08-11T00:04:00",
+  "generated_at": "2026-08-12T05:13:01",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-08-12",
+      "category": "補助金・支援",
+      "title": "今治市福祉施設等物価高騰対策応援金について（高齢者福祉施設・事業所等）",
+      "summary": "食材費の高騰が続く中、その高騰分を負担しながらも、サービス維持に向け運営を続けている医療・福祉施設等に対し、応援金を支給します。",
+      "url": "https://www.city.imabari.ehime.jp/kaigo/info/014/"
+    },
     {
       "date": "2026-08-10",
       "category": "お知らせ",
@@ -64,27 +71,6 @@
       "title": "本屋大賞作家 凪良ゆう 講演会＆市長トークセッション＆サイン会（9月12開催）",
       "summary": "映画「汝、星のごとく」公開記念講演会 今治市立図書館 開館 100周年記念〈定員〉・講演会＆トークセッション 先着500名・サイン会 先着100名",
       "url": "https://www.city.imabari.ehime.jp/event/?a=690"
-    },
-    {
-      "date": "2026-08-05",
-      "category": "交通・航路",
-      "title": "今治～岡村（関前）航路で、8月13日及び8月15日の両日、お盆の臨時便を運航します。（PDF 99KB）",
-      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/obon.pdf"
-    },
-    {
-      "date": "2026-08-05",
-      "category": "お知らせ",
-      "title": "令和7年度指定管理者モニタリング結果を掲載しました。",
-      "summary": "令和7年度の指定管理者による「公の施設」の管理運営について、条例、規則および協定等に従い、適切かつ確実なサービスの提供が確保されているかを確認するため、「管理運営状況評価（モニタリング）」を行いました。その結果は次のとおりです。 なお、詳細は担当課にお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/gyousei/siteikanri/siteikanri_monitoring/r07/"
-    },
-    {
-      "date": "2026-08-05",
-      "category": "お知らせ",
-      "title": "カスタマーハラスメントに対する取組について",
-      "summary": "市民課を安心してご利用いただける環境づくりにご理解とご協力をお願いします。 市民課では、市民の皆さまに安心してご利用いただける環境づくりを目指しています。職員も市民の皆さまも互いに尊重し合い、気持ちよく利用できる環境の維持にご理解とご協力をお願いいたします。そのため、次のような行…",
-      "url": "https://www.city.imabari.ehime.jp/siminka/customer-harassment/"
     }
   ]
 }
