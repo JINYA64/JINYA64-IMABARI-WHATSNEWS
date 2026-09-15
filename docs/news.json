@@ -1,7 +1,28 @@
 {
-  "generated_at": "2026-09-14T00:22:23",
+  "generated_at": "2026-09-15T00:52:31",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-15",
+      "category": "お知らせ",
+      "title": "令和8年度　高齢者のインフルエンザ予防接種について",
+      "summary": "インフルエンザ予防接種は、自ら希望する方が接種するもので、強制ではありません。 ※接種券（はがき）の送付はありません。",
+      "url": "https://www.city.imabari.ehime.jp/kenkou/kourei_influenza/"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "お知らせ",
+      "title": "しまなみ海道 大島道路「大島北IC～大島南IC」通行止めのお知らせ",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.skr.mlit.go.jp/matsuyam/pres/pres2026/pres/260911.pdf"
+    },
+    {
+      "date": "2026-09-14",
+      "category": "募集・イベント",
+      "title": "「いまばりKIDSプログラミングコンテストに向けたサポート教室」の開催について",
+      "summary": "このたび、いまばりKIDSプログラミングコンテストへの応募に向けた作品づくりをサポートする「いまばりKIDSプログラミング教室」を開催します。プログラミングが初めてのお子さまも安心してご参加いただけます。教室では、9月30日の応募期限に向けて作品づくりを進め、11月3日（火曜日・…",
+      "url": "https://www.city.imabari.ehime.jp/mirai/kidsprog/"
+    },
     {
       "date": "2026-09-14",
       "category": "お知らせ",
@@ -71,20 +92,6 @@
       "title": "学校給食レシピ講習会を開催しました。",
       "summary": "令和8年8月27日（木曜日）、 中央公民館 2階 栄養指導室で今治市内学校給食調理場栄養士及び調理員を対象に、学校給食レシピ講習会を開催しました。 地域の食材を活用したプロの技術を、日頃の献立作成や調理のヒントとしてとり入れることにより、市内全体の学校給食の質を高めることを目的と…",
       "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/002/"
-    },
-    {
-      "date": "2026-09-08",
-      "category": "お知らせ",
-      "title": "愛媛県　18歳以上ヤングケアラー相談窓口について",
-      "summary": "愛媛県では、令和8年9月1日から、18歳以上のヤングケアラーを対象とした相談支援や関係機関との連携、当事者同士の交流の場の運営等を行う「愛媛県 18歳以上ヤングケアラー・コーディネーター（通称：えひめYCC18＋）」を設置し、相談窓口を開設しています。 愛媛県「ヤングケアラーにつ…",
-      "url": "https://www.city.imabari.ehime.jp/neuvola/ycc18plus/"
-    },
-    {
-      "date": "2026-09-08",
-      "category": "お知らせ",
-      "title": "9月の定例教育委員会について",
-      "summary": "教育委員会の会議（定例・臨時会）を傍聴しませんか。※ただし、委員会は非公開となる場合があります。詳しくは教育大綱推進課までお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai"
     }
   ]
 }
