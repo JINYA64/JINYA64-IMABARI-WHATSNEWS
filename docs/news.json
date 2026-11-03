@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T01:44:43",
+  "generated_at": "2026-11-03T03:40:36",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -8,6 +8,55 @@
       "title": "墓地使用の申込募集をしています。",
       "summary": "各墓地の申込先で「募集のご案内」をお渡しします。申し込み要件など詳しくは、各申込先までお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kankyou/bochi/boshu_202611.html"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "11月の学校給食献立表",
+      "summary": "今晩の夕食のおかずを決めるときなどにご活用ください。 ※材料の都合により変更する場合があります。 学校給食センター（日吉中学校、近見中学校、立花中学校、北郷中学校）（PDF 704 KB）",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/kondate/202611/"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "移動市役所の11月のスケジュールを掲載しました。",
+      "summary": "移動市役所とは、机やイスのレイアウト変更が可能で、電源を備えたマルチタスク車両を使って、市役所本庁、支所から遠い場所に住む住民の方がアクセスしやすい場所まで車両が訪問して、行政サービスを届ける移動型行政サービスです。",
+      "url": "https://www.city.imabari.ehime.jp/maas/"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "消費者トラブルに関する最新の情報を更新しました。",
+      "summary": "消費生活相談員等が消費者トラブルにあった消費者からの相談を受け付け、解決のためにアドバイスし、必要に応じ事業者との間に立ってあっせんを行うほか、消費者トラブルに関する最新の情報等についての普及・啓発等により、消費者被害の未然・拡大防止のための取組を行っています。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "募集・イベント",
+      "title": "C&K 2026全国ツアー今治公演　IMABALINAフェア（11月8日開催）",
+      "summary": "今治市では、C&K 2025年全国ツアー今治公演に合わせ、四池さん（C&Kファンの総称）をはじめ、ご来場の皆様へのおもてなしとして「IMABALINAフェア」を開催します。また、当日は今治港にて「せとうちみなとマルシェ」も同時開催されます。ぜひこの機会に、今治港にも足をお運びくだ…",
+      "url": "https://www.city.imabari.ehime.jp/iiimabari/info/019/"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "地域ブランド調査2026結果～今治市の魅力度～が発表されました。（PDF 414KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/iiimabari/chousakekka/chousakekka2026.pdf"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "11月の定例教育委員会について",
+      "summary": "教育委員会の会議（定例・臨時会）を傍聴しませんか。※ただし、委員会は非公開となる場合があります。詳しくは教育大綱推進課までお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai"
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市立小・中学校の、インフルエンザ様疾患による学級閉鎖等の状況についてお知らせします。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/"
     },
     {
       "date": "2026-11-01",
@@ -85,62 +134,6 @@
       "title": "（進捗状況）サンライズ糸山及び周辺市有地活用促進事業について",
       "summary": "本事業は、サンライズ糸山及び事業用地において宿泊施設等を整備し、瀬戸内しまなみ海道及びその四国側の起点である糸山地域の国際的なブランド力向上を図るとともに、国内外から多くの人を呼び込む拠点づくりを行うものです。 事業の実現に向けて、高付加価値な宿泊施設の誘致が可能な民間事業者に開…",
       "url": "https://www.city.imabari.ehime.jp/cyclecity/sunrise-itoyama/"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "お知らせ",
-      "title": "広小路社会実験における検証項目の詳細・調査手法等について",
-      "summary": "社会実験に向けて、交通規制による周辺道路への影響や安全性を確認するため、事前に交通検証を行いました。この検証では、過去の交通量調査結果をもとに、交差点での交通処理が可能かを確認するとともに、交通シミュレーションを用いて、車両の滞留状況や通行にかかる時間などを検証しました。その結果…",
-      "url": "https://www.city.imabari.ehime.jp/miryokutosi/hirokoji/008/"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "お知らせ",
-      "title": "広報いまばり（11月号）を掲載しました。",
-      "summary": "2026年11月号の全ページ一括ダウンロード（PDF 18MB） 星をたどって、今治へ。（「汝、星のごとく」聖地巡礼ガイドブックのお知らせ）／相談コーナー（PDF 711KB）",
-      "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202611/"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "募集・イベント",
-      "title": "イマバリ未来デザインアワード　若い世代の政策アイデアを募集します。",
-      "summary": "急速に変化する社会のなかで、地域課題に向き合い、より良い未来に向かうためには、これからの時代を担う若い世代の創造的な視点が不可欠だと考えています。 これまでも、市役所、学校、民間企業、地域団体など、さまざまな主体が若い皆さんと一緒に、まちの未来を考える機会を積み重ねてきました。そ…",
-      "url": "https://www.city.imabari.ehime.jp/simingamannaka/miraidesign-award/"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "募集・イベント",
-      "title": "しまなみ健康塾 in大島「健康ウォーキング」（12月5日開催）",
-      "summary": "令和8年12月5日（土曜日）9時30分～1２時00分 村上海賊ミュージアム（愛媛県今治市宮窪町宮窪1285番地）",
-      "url": "https://www.city.imabari.ehime.jp/shimanamis/shimanami-kenkoujyuku/R8/02/"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "募集・イベント",
-      "title": "いまばり人権啓発フェスティバル2026を開催します。",
-      "summary": "今治市は、市民一人一人が日常の生活の中で人権を確かめあっていただくきっかけを作る目的で、毎月11日を「人権の日」と定めています。その記念行事として講演会、人権啓発パネル展などを合わせた人権フェスティバルを開催します。 最終更新日：2026年 10月 27日",
-      "url": "https://www.city.imabari.ehime.jp/event/?a=387"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "お知らせ",
-      "title": "緑の相談所の開花情報",
-      "summary": "緑の相談所は鹿ノ子池公園が設置された昭和56年に開設され、今治地域の自然環境にふれあう場であるとともに学習の場として多くの人に親しまれています。また土曜日、日曜日には園芸講習会や体験学習会を行っています。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/soudan/#kaika"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "募集・イベント",
-      "title": "第13回今治ふしぎ発見！ゼミ 「朝倉・笠松山」 参加者募集（11月28日開催）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://apply.e-tumo.jp/city-imabari-ehime-u/offer/offerList_detail?tempSeq=12975"
-    },
-    {
-      "date": "2026-10-27",
-      "category": "募集・イベント",
-      "title": "親子Xmasリース作り教室 参加者募集（11月23日開催）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://apply.e-tumo.jp/city-imabari-ehime-u/offer/offerList_detail?tempSeq=12976"
     }
   ]
 }
