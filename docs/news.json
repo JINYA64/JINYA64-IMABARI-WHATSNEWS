@@ -1,7 +1,21 @@
 {
-  "generated_at": "2026-11-11T02:09:00",
+  "generated_at": "2026-11-12T03:17:47",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-12",
+      "category": "お知らせ",
+      "title": "亀老山展望公園をご利用のみなさまへ",
+      "summary": "亀老山展望公園では、ゴールデンウィークやシルバーウィーク、年末年始のほか、土・日・祝日は多くのお客様にご来園いただいております。 そのため、時間帯によっては駐車場が満車となり、入園までお待ちいただく場合があります。 ご来園の際は、お時間に余裕をもってお越しください。また、混雑時は…",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/049/"
+    },
+    {
+      "date": "2026-11-12",
+      "category": "お知らせ",
+      "title": "部活動の地域展開に関する取組について",
+      "summary": "今治市の部活動は今後どうなる？～部活動地域展開について～第1報（PDF 256KB） 今治市の部活動は今後どうなる？～部活動地域展開について～第2報（PDF 173KB）",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/bukatsu/"
+    },
     {
       "date": "2026-11-11",
       "category": "募集・イベント",
@@ -29,13 +43,6 @@
       "title": "今治交通公園の一部施設の利用中止について",
       "summary": "今治交通公園の「こども用自転車」「おもしろ自転車」「ゴーカート」の使用を当面の間中止します。 これに伴い、下図のエリアを利用禁止とします。",
       "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/"
-    },
-    {
-      "date": "2026-11-10",
-      "category": "お知らせ",
-      "title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市立小・中学校の、インフルエンザ様疾患による学級閉鎖等の状況についてお知らせします。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/"
     },
     {
       "date": "2026-11-09",
@@ -71,20 +78,6 @@
       "title": "映画『汝、星のごとく』「第17回 ロケーションジャパン大賞」について",
       "summary": "瀬戸内が舞台となった映画『汝、星のごとく』が公開されます。",
       "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#locationjapan"
-    },
-    {
-      "date": "2026-11-05",
-      "category": "補助金・支援",
-      "title": "避難生活快適性向上支援事業補助金の申請はお早めにお手続きください。",
-      "summary": "避難生活の快適性向上や災害時の持出品の整備を支援するため、防災用品の購入に要する費用の一部を補助します。 防災用品購入支援補助金チラシ（PDF 324KB）",
-      "url": "https://www.city.imabari.ehime.jp/bousai/saigai-mochidashi-shien/"
-    },
-    {
-      "date": "2026-11-05",
-      "category": "補助金・支援",
-      "title": "令和8年度　今治市地域特産物振興対策関係補助金の要望調査の実施について（第2回）",
-      "summary": "今治市では、地域特産物（野菜、果樹、花き）の生産拡大および品質向上を図り、農業者の所得向上を目的とし、農業用ハウス・ハウス付帯設備、灌水設備の導入及び中古ハウスリノベーション、農業用井戸の掘削に要する経費に対して、予算の範囲内で支援を行います。 つきましては、下記のとおり要望調査…",
-      "url": "https://www.city.imabari.ehime.jp/nourin/tokusan/"
     }
   ]
 }
