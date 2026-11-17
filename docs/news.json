@@ -1,13 +1,48 @@
 {
-  "generated_at": "2026-11-16T02:20:32",
+  "generated_at": "2026-11-17T04:43:31",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-17",
+      "category": "募集・イベント",
+      "title": "第5回今治市デジタル未来コンソーシアムDX勉強会のご案内（1月13日開催）",
+      "summary": "令和4年度策定の「デジタル未来戦略」において定めた基本理念である「ソーシャルキャピタルの形成」「DX推進をきっかけとした市民連携」を、コンソーシアム活動により達成することを目的としています。デジタル技術等に関する勉強会・情報交換会によって官民のデジタル力の底上げを図り、活動全体を…",
+      "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験D日程第１次試験合格発表について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）最終試験合格発表について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "募集・イベント",
+      "title": "パートタイム会計年度任用職員（事務補助）の募集（中央公民館）（PDF 97KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-012.pdf"
+    },
     {
       "date": "2026-11-16",
       "category": "募集・イベント",
       "title": "倉敷芸術科学大学による今治ミュージアムアートフェス2026を開催します！",
       "summary": "今治オリジナルバルーン2026年12月12日（土曜日）～18日（金曜日）9時〜17時 AI（参加型インタラクティブアート）2026年12月～2027年1月（予定）",
       "url": "https://www.city.imabari.ehime.jp/bunka/info/031/"
+    },
+    {
+      "date": "2026-11-16",
+      "category": "お知らせ",
+      "title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市立小・中学校の、インフルエンザ様疾患による学級閉鎖等の状況についてお知らせします。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/"
     },
     {
       "date": "2026-11-13",
@@ -50,20 +85,6 @@
       "title": "令和8年10月期 市営住宅の随時募集について",
       "summary": "市営住宅の入居者募集は、定期募集および随時募集を年2回実施しています。",
       "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-zuiji/"
-    },
-    {
-      "date": "2026-11-10",
-      "category": "補助金・支援",
-      "title": "省エネ家電補助金（デジタルクーポン）の利用期限が近づいています（令和8年12月31日まで）",
-      "summary": "今治市省エネ家電普及促進事業費補助金をご利用いただいた皆さまへ 補助金交付に伴い付与されたPayPayデジタルクーポンについて、利用期限が近づいています。 利用期限を過ぎると、未使用のPayPay商品券残高は失効し、ご利用いただけなくなります。お手元のPayPay商品券残高と利用…",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/hojo/001/info.html"
-    },
-    {
-      "date": "2026-11-10",
-      "category": "お知らせ",
-      "title": "今治交通公園の一部施設の利用中止について",
-      "summary": "今治交通公園の「こども用自転車」「おもしろ自転車」「ゴーカート」の使用を当面の間中止します。 これに伴い、下図のエリアを利用禁止とします。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/"
     }
   ]
 }
