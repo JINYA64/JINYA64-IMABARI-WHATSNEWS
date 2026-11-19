@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-11-18T03:48:57",
+  "generated_at": "2026-11-19T03:46:52",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-19",
+      "category": "お知らせ",
+      "title": "「食育の日」簡単レシピ11月「ほうれん草と桜エビのペペロンチーノ風」を掲載しました。",
+      "summary": "旬の食材は栄養価が高く、おいしくいただけます。また、比較的安価で手に入れることができ経済的です。そんな旬の食材を使ったレシピをご紹介しています。あと一品欲しいとき、毎日の献立に困ったときなどにぜひご活用ください。 令和8年4月「ごぼうとレタスのあおのり和え」（PDF 287KB）",
+      "url": "https://www.city.imabari.ehime.jp/kenkou/shokuiku_recipe/"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "募集・イベント",
+      "title": "「はじめての終活講座」を開催します。※全3回",
+      "summary": "もしもの時に備えて、今できる準備から始めませんか。今治市では、将来に対する不安を少しでも取り除き、安心して生活するために、終活サポートに取り組みます。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/shukatsu/"
+    },
+    {
+      "date": "2026-11-19",
+      "category": "お知らせ",
+      "title": "【桜井総合公園】ボブスレー利用休止について",
+      "summary": "桜井総合公園のボブスレー利用休止について 運搬機械故障のため、桜井総合公園のボブスレーを利用休止とします。利用再開については、令和8年11月21日（土曜日）を予定しております。ご不便をおかけしますが、ご理解・ご協力のほどよろしくお願いいたします。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/sakurai/"
+    },
+    {
+      "date": "2026-11-18",
+      "category": "募集・イベント",
+      "title": "令和9年1月開催　成人式のお知らせ",
+      "summary": "20歳の方を対象に「今治市成人式」を開催します。",
+      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/seijinsiki/"
+    },
     {
       "date": "2026-11-17",
       "category": "募集・イベント",
@@ -38,39 +66,11 @@
       "url": "https://www.city.imabari.ehime.jp/bunka/info/031/"
     },
     {
-      "date": "2026-11-16",
-      "category": "お知らせ",
-      "title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市立小・中学校の、インフルエンザ様疾患による学級閉鎖等の状況についてお知らせします。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/"
-    },
-    {
       "date": "2026-11-13",
       "category": "お知らせ",
       "title": "今治市公共予約システムの利用再開について",
       "summary": "平素より今治市公共施設をご利用いただき、誠にありがとうございます。 公共予約システムの緊急メンテナンスが終了いたしました。ご利用の皆様には大変ご不便をおかけいたしておりますが、令和8年11月16日 9時00分から利用を再開いたします。 11月16日以降は利用停止前と同じ利用方法に…",
       "url": "https://www.city.imabari.ehime.jp/sports/info/033/"
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "事業主の皆さまへ　給与支払報告書の電子提出義務化について",
-      "summary": "今までは、前々年に税務署へ提出すべき源泉徴収票の枚数が 「100枚以上」 の事業者がeLTAX（エルタックス）などの電子提出義務の対象となっていましたが、令和9年1月以後に提出する分から は「30枚以上」の事業者が対象となりますので、ご注意ください。 なお、eLTAXを使えば各市…",
-      "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/denshi_gimuka/"
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "亀老山展望公園をご利用のみなさまへ",
-      "summary": "亀老山展望公園では、ゴールデンウィークやシルバーウィーク、年末年始のほか、土・日・祝日は多くのお客様にご来園いただいております。 そのため、時間帯によっては駐車場が満車となり、入園までお待ちいただく場合があります。 ご来園の際は、お時間に余裕をもってお越しください。また、混雑時は…",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/049/"
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "部活動の地域展開に関する取組について",
-      "summary": "今治市の部活動は今後どうなる？～部活動地域展開について～第1報（PDF 256KB） 今治市の部活動は今後どうなる？～部活動地域展開について～第2報（PDF 173KB）",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/bukatsu/"
     }
   ]
 }
